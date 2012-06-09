@@ -10,7 +10,7 @@
          "license" : "GPLv2",
          "mem" : "32",
          "name" : "ITisOpen_VCAP_PHP_Demo",
-         "repo" : "git@github.com:patlachance/iton_php_demo.git",
+         "repo" : "git://github.com/patlachance/iton_php_demo.git",
          "runtime" : "php",
          "services" : {
             "filesystem" : "fs-iton_php_demo",
