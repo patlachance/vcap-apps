@@ -2,7 +2,7 @@
    "apps" : [
       {
          "branch" : "master",
-         "desc" : "ITisOpen.net's VCAP tools - PHP demo",
+         "desc" : "ITisOpen.net VCAP tools - PHP demo",
          "framework" : "php",
          "home" : "https://github.com/patlachance/iton_php_demo#readme",
          "icon" : "itisopen.png",
@@ -21,7 +21,7 @@
    "store" : {
       "contact" : "ITisOpen.net Support <patlachance@gmail.com>",
       "icon" : "itisopen.png",
-      "icons" : "https://github.com/patlachance/vcap-apps/icons/",
+      "icons" : "http://www.itisopen.net/vcap/store/icons/",
       "title" : "ITisOpen.net's Apps for VCAP"
    }
 }
