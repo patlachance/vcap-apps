@@ -2,14 +2,14 @@
    "apps" : [
       {
          "branch" : "master",
-         "desc" : "ITisOpen.net VCAP tools - PHP demo",
+         "desc" : "ITisOpen.net&#39s VCAP tools - PHP demo",
          "framework" : "php",
          "home" : "https://github.com/patlachance/iton_php_demo#readme",
          "icon" : "itisopen.png",
          "id" : "iton_php_demo",
          "license" : "GPLv2",
          "mem" : "32",
-         "name" : "ITisOpen_VCAP_PHP_Demo",
+         "name" : "ITisOpen VCAP PHP Demo",
          "repo" : "git://github.com/patlachance/iton_php_demo.git",
          "runtime" : "php",
          "services" : {
