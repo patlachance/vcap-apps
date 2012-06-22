@@ -18,6 +18,25 @@
          }
       }
    ],
+   "apps" : [
+      {
+         "branch" : "master",
+         "desc" : "ITisOpen.net VCAP tools - PHP demo 2",
+         "framework" : "php",
+         "home" : "https://github.com/patlachance/iton_php_demo#readme",
+         "icon" : "itisopen.png",
+         "id" : "iton_php_demo2",
+         "license" : "GPLv2",
+         "mem" : "32",
+         "name" : "ITisOpen_VCAP_PHP_Demo 2",
+         "repo" : "git://github.com/patlachance/iton_php_demo.git",
+         "runtime" : "php",
+         "services" : {
+            "filesystem" : "fs-iton_php_demo",
+            "mysql" : "mysql-iton_php_demo"
+         }
+      }
+   ],
    "store" : {
       "contact" : "ITisOpen.net Support <patlachance@gmail.com>",
       "icon" : "itisopen.png",
