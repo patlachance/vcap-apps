@@ -16,6 +16,7 @@ apps:
 - name: ITisOpen VCAP PHP Demo
   desc: ITisOpen.net&#39s VCAP tools - PHP demo
   runtime: PHP
+  services: File System, MySQL
   id: iton_php_demo
   tags: itisopen
   license: GPL
