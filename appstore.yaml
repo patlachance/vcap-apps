@@ -1,0 +1,36 @@
+store:
+  title: ITisOpen.net Apps for VCAP
+  contact: ITisOpen.net Support <patlachance@gmail.com>
+  icon: itisopen.png
+  icon-url: http://www.itisopen.net/vcap/store/icons/
+  src-url: git://github.com/patlachance/
+  defaults:
+    id: $id-from-name
+    mem: 128
+    src: $id.git
+    icon: $id.png
+    commit: master
+    info: $github-url#readme
+
+apps:
+- name: ITisOpen VCAP PHP Demo
+  desc: ITisOpen.net&#39s VCAP tools - PHP demo
+  runtime: php
+  services: File System, MySQL
+  id: iton_php_demo
+  src: iton_php_demo.git  
+  tags: itisopen
+  license: GPL
+  mem: 32
+  icon: itisopen.png
+
+- name: Redmine
+  desc: ITisOpen.net&#39s VCAP tools - Redmine
+  runtime: ruby19
+  services: File System, MySQL
+  id: redmine
+  src: redmine.git  
+  tags: itisopen
+  license: GPL
+  mem: 256
+
