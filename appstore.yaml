@@ -15,7 +15,7 @@ store:
 apps:
 - name: ITisOpen VCAP PHP Demo
   desc: ITisOpen.net&#39s VCAP tools - PHP demo
-  runtime: php
+  runtime: PHP
   services: File System, MySQL
   id: iton_php_demo
   src: iton_php_demo.git  
@@ -26,7 +26,7 @@ apps:
 
 - name: Redmine
   desc: ITisOpen.net&#39s VCAP tools - Redmine
-  runtime: ruby19
+  runtime: Ruby 1.9
   services: File System, MySQL
   id: redmine
   src: redmine.git  
